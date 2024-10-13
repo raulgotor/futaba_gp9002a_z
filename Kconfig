@@ -1,0 +1,6 @@
+config LIB_GP9002A
+    bool "Enable the helper library GP9002A"
+    default n
+    depends on SPI 
+    help
+      Helper functions 
